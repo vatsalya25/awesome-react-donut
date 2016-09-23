@@ -1,0 +1,22 @@
+{
+  "name": "awesome-react-donut",
+  "version": "0.1.0",
+  "description": "A React component for creating visually appealing donut charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src/reactDonut.js -o index.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Vatsalya Prakash",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-react": "6.11.1"
+  }
+}
